@@ -1,0 +1,937 @@
+```html
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>عيد ميلاد ماااالك  ❤️</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Pacifico&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================
+         LOADING SCREEN
+    ========================================== -->
+
+    <div id="loading-screen">
+
+        <div class="loader-content">
+
+            <div class="loader-gift">
+                🎁
+            </div>
+
+            <h2>
+                في مفاجأة مستنياك...
+            </h2>
+
+            <div class="loader-bar">
+                <span></span>
+            </div>
+
+            <p>
+                استنى شوية يا بطل ❤️
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================================
+         MUSIC
+    ========================================== -->
+
+    <audio id="birthdayMusic" loop preload="auto">
+    <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <button
+        class="music-btn"
+        id="musicBtn">
+
+        🎵
+
+    </button>
+
+
+
+    <!-- =========================================
+         NAVBAR
+    ========================================== -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+
+            🎂 Birthday
+
+        </div>
+
+
+        <div class="nav-links">
+
+            <a href="#home">
+                الرئيسية
+            </a>
+
+            <a href="#memories">
+                ذكرياتنا
+            </a>
+
+            <a href="#message">
+                رسالتي
+            </a>
+
+            <a href="#gift">
+                المفاجأة
+            </a>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- =========================================
+         HERO / FAMILY PHOTO
+    ========================================== -->
+
+    <section
+        class="hero"
+        id="home">
+
+
+        <!-- Background Glow -->
+
+        <div class="hero-glow glow-1"></div>
+
+        <div class="hero-glow glow-2"></div>
+
+
+
+        <!-- Floating Shapes -->
+
+        <div class="floating-shape shape-1">
+            ✦
+        </div>
+
+        <div class="floating-shape shape-2">
+            ♡
+        </div>
+
+        <div class="floating-shape shape-3">
+            ✦
+        </div>
+
+        <div class="floating-shape shape-4">
+            ♡
+        </div>
+
+
+
+        <div class="hero-container">
+
+
+            <!-- =================================
+                 HERO TEXT
+            ================================== -->
+
+            <div class="hero-text-content">
+
+
+                <span class="hero-small-title">
+
+                    ✨ يوم مميز جدًا ✨
+
+                </span>
+
+
+
+                <h1>
+
+                    كل سنة وانت طيب
+
+                    <br>
+
+                    <span>
+                        يا مالك  ❤️
+                    </span>
+
+                </h1>
+
+
+
+                <p>
+
+                    النهارده مش يوم عادي...
+
+                    <br>
+
+                    النهارده بنحتفل بوجود شخص غالي
+                    جدًا على قلبنا كلنا ❤️
+
+                </p>
+
+
+
+                <div class="hero-buttons">
+
+
+                    <button
+                        class="main-btn"
+                        onclick="scrollToSection('message')">
+
+                        💌 رسالتي ليك
+
+                    </button>
+
+
+
+                    <button
+                        class="outline-btn"
+                        onclick="scrollToSection('memories')">
+
+                        📸 ذكرياتنا
+
+                    </button>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =================================
+                 FAMILY PHOTO
+            ================================== -->
+
+            <div class="family-photo-area">
+
+
+                <div class="photo-decoration decoration-1">
+                    ✦
+                </div>
+
+                <div class="photo-decoration decoration-2">
+                    ✦
+                </div>
+
+                <div class="photo-decoration decoration-3">
+                    ❤️
+                </div>
+
+
+
+                <div class="family-photo-frame">
+
+
+                    <div class="photo-glow"></div>
+
+
+                    <div class="family-photo">
+
+                        <!--
+                            الصورة العائلية الأساسية
+                            ضعها داخل فولدر images
+                            باسم family.jpg
+                        -->
+
+                        <img
+                            src="WhatsApp Image 2026-08-31 at 10.50.07 PM (1).jpeg"
+                            alt="صورتنا العائلية">
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- Photo Caption -->
+
+                <div class="photo-caption">
+
+
+                    <span>
+                        ❤️
+                    </span>
+
+
+                    <div>
+
+                        <strong>
+                            أجمل حاجة في الدنيا
+                        </strong>
+
+                        <small>
+                            إننا دايمًا مع بعض
+                        </small>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- Scroll Down -->
+
+        <div class="scroll-down">
+
+            <span>
+                اكتشف المفاجأة
+            </span>
+
+            <div>
+                ↓
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =========================================
+         BIRTHDAY COUNTER
+    ========================================== -->
+
+    <section class="counter-section">
+
+
+        <div class="section-title">
+
+
+            <span>
+                🎉 احتفالنا
+            </span>
+
+
+            <h2>
+                يومك الكبير وصل!
+            </h2>
+
+
+            <p>
+                وعلشان اليوم ده مميز، عملتلك حاجة مخصوص ❤️
+            </p>
+
+
+        </div>
+
+
+
+        <div class="counter">
+
+
+            <div class="counter-box">
+
+                <strong id="days">
+                    00
+                </strong>
+
+                <span>
+                    يوم
+                </span>
+
+            </div>
+
+
+
+            <div class="counter-box">
+
+                <strong id="hours">
+                    00
+                </strong>
+
+                <span>
+                    ساعة
+                </span>
+
+            </div>
+
+
+
+            <div class="counter-box">
+
+                <strong id="minutes">
+                    00
+                </strong>
+
+                <span>
+                    دقيقة
+                </span>
+
+            </div>
+
+
+
+            <div class="counter-box">
+
+                <strong id="seconds">
+                    00
+                </strong>
+
+                <span>
+                    ثانية
+                </span>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =========================================
+         MEMORIES
+    ========================================== -->
+
+    <section
+        class="memories-section"
+        id="memories">
+
+
+        <div class="section-title">
+
+
+            <span>
+                📸 Our Memories
+            </span>
+
+
+            <h2>
+                أحلى ذكرياتنا
+            </h2>
+
+
+            <p>
+                شوية لحظات من الحاجات الحلوة
+                اللي عشناها سوا ❤️
+            </p>
+
+
+        </div>
+
+
+
+        <div class="gallery">
+
+
+            <!-- MEMORY 1 -->
+
+            <div class="memory-card">
+
+
+                <img
+                    src="WhatsApp Image 2026-08-31 at 10.50.06 PM (5).jpeg"
+                    alt="ذكرى 1">
+
+
+                <div class="memory-info">
+
+
+                    <span>
+                        ❤️
+                    </span>
+
+
+                    <h3>
+                        يوم من أجمل أيامنا
+                    </h3>
+
+
+                    <p>
+                        ذكرى مش هننساها.
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- MEMORY 2 -->
+
+            <div class="memory-card">
+
+
+                <img
+                    src="WhatsApp Image 2026-08-31 at 10.50.03 PM.jpeg"
+                    alt="ذكرى 2">
+
+
+                <div class="memory-info">
+
+                    <span>
+                        😂
+                    </span>
+
+                    <h3>
+                        ضحك من القلب
+                    </h3>
+
+                    <p>
+                        مفيش أحلى من الضحك معاك.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- MEMORY 3 -->
+
+            <div class="memory-card">
+
+
+                <img
+                    src="WhatsApp Image 2026-08-31 at 10.50.06 PM (8).jpeg"
+                    alt="ذكرى 3">
+
+
+                <div class="memory-info">
+
+                    <span>
+                        🥹
+                    </span>
+
+                    <h3>
+                        أيام زمان
+                    </h3>
+
+                    <p>
+                        الوقت بيعدي بسرعة جدًا.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- MEMORY 4 -->
+
+            <div class="memory-card">
+
+
+                <img
+                    src="WhatsApp Image 2026-08-31 at 10.50.06 PM (4).jpeg"
+                    alt="ذكرى 4">
+
+
+                <div class="memory-info">
+
+                    <span>
+                        🔥
+                    </span>
+
+                    <h3>
+                        أحلى أخ
+                    </h3>
+
+                    <p>
+                        وجودك في حياتي نعمة.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- MEMORY 5 -->
+
+            <div class="memory-card">
+
+
+                <img
+                    src="WhatsApp Image 2026-08-31 at 10.50.05 PM.jpeg"
+                    alt="ذكرى 5">
+
+
+                <div class="memory-info">
+
+                    <span>
+                        💙
+                    </span>
+
+                    <h3>
+                        ذكرى جديدة
+                    </h3>
+
+                    <p>
+                        ولسه الجاي أحلى.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- MEMORY 6 -->
+
+            <div class="memory-card">
+
+
+                <img
+                    src="WhatsApp Image 2026-08-31 at 10.50.06 PM (3).jpeg"
+                    alt="ذكرى 6">
+
+
+                <div class="memory-info">
+
+                    <span>
+                        👑
+                    </span>
+
+                    <h3>
+                        أخويا وبس
+                    </h3>
+
+                    <p>
+                        دايمًا في ضهري.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =========================================
+         PERSONAL MESSAGE
+    ========================================== -->
+
+    <section
+        class="message-section"
+        id="message">
+
+
+        <div class="message-card">
+
+
+            <div class="message-icon">
+                💌
+            </div>
+
+
+            <span class="message-label">
+                رسالة من أخوك الكبير
+            </span>
+
+
+            <h2>
+                لأغلى أخ ❤️
+            </h2>
+
+
+
+            <div class="message-text">
+
+
+                <p>
+
+                    كل سنة وانت طيب يا ملوكه，
+                    وعقبال سنين كتير وانت مبسوط وناجح.
+
+                </p>
+
+
+                <p>
+
+                    يمكن مش دايمًا بقولك قد إيه انت
+                    غالي عندي، بس الحقيقة إن وجودك
+                    في حياتي من أحلى الحاجات اللي حصلتلي.
+
+                </p>
+
+
+                <p>
+
+                    عايزك دايمًا تفضل تضحك وتفرح،
+                    ومتخليش أي حاجة توقفك عن أحلامك.
+
+                </p>
+
+
+                <p>
+
+                    وأنا هفضل دايمًا أخوك الكبير،
+                    موجود جنبك في كل خطوة ❤️
+
+                </p>
+
+
+                <p class="signature">
+
+                    بحبك يا بطل ❤️
+
+                    <br>
+
+                    أخوك الكبير
+
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <!-- =========================================
+         GIFT / SURPRISE
+    ========================================== -->
+
+    <section
+    
+    class="gift-section"
+    id="gift">
+    
+
+    <div class="section-title">
+        <span>🎁 JUST FOR YOU</span>
+
+        <h2>في هدية مستنياك</h2>
+
+        <p>
+            بس لازم تفتحها بنفسك 😍
+        </p>
+    </div>
+
+    <div class="gift-box" id="gift-box">
+
+        <div class="gift-lid">
+            🎀
+        </div>
+
+        <div class="gift-body">
+            🎁
+        </div>
+
+    </div>
+
+    <p class="gift-hint">
+        اضغط على الهدية عشان تعرف المفاجأة 👆
+    </p>
+
+</section>
+        
+
+
+
+    <!-- =========================================
+         SURPRISE MODAL
+    ========================================== -->
+    
+    <div class="surprise-content">
+
+
+            <button
+                class="close-btn"
+                onclick="closeGift()">
+
+                ×
+
+            </button>
+
+
+
+            <div class="big-emoji">
+
+                🎉
+
+            </div>
+
+
+
+            <h2>
+
+                كل سنة وانت طيب يا بطل! ❤️
+
+            </h2>
+
+
+
+            <p>
+
+                أتمنى السنة الجديدة من عمرك تكون
+                مليانة فرحة ونجاح وضحك وذكريات
+                أحلى من كل اللي فات.
+
+            </p>
+
+
+
+            <div class="final-message">
+
+                YOU ARE AWESOME 👑
+
+            </div>
+
+
+
+            <button
+                class="main-btn"
+                onclick="launchConfetti()">
+
+                احتفل 🎉
+
+            </button>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- =========================================
+         CONFETTI
+    ========================================== -->
+
+    <div id="confetti-container"></div>
+
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+    <div class="surprise-modal" id="surprise-modal">
+
+    <div class="surprise-content">
+
+        <button class="close-btn" id="close-surprise">
+            ×
+        </button>
+
+        <div class="big-emoji">
+            🎉
+        </div>
+
+        <span class="message-label">
+            HAPPY BIRTHDAY
+        </span>
+
+        <h2>
+            كل سنة وأنت طيب يا بطل ❤️
+        </h2>
+
+        <p>
+            النهارده مش يوم عادي...
+            النهارده يوم مميز جدًا عشان هو يوم ميلادك.
+            أتمنى السنة الجديدة تكون مليانة
+            فرحة ونجاح وضحك وذكريات حلوة.
+        </p>
+
+        <div class="final-message">
+             بحبك يا ملوكه ❤️
+        </div>
+
+        <p>
+            🎂 🎈 🎁
+        </p>
+
+    </div>
+
+</div>
+
+<div id="confetti-container"></div>
+
+    <footer>
+
+
+        <div class="footer-heart">
+
+            ❤️
+
+        </div>
+
+
+        <h3>
+
+            Made with love
+
+        </h3>
+
+
+        <p>
+
+            من أخوك الكبير لأغلى أخ في الدنيا.
+
+        </p>
+
+
+        <span>
+
+            © Birthday Memories
+
+        </span>
+
+
+    </footer>
+
+
+
+    <!-- =========================================
+         JAVASCRIPT
+    ========================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
+```
